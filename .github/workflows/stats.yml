@@ -1,23 +1,29 @@
 name: Update Stats
+
 on:
   schedule:
-    - cron: '0 0 * * *'  
-  workflow_dispatch:     
+    - cron: '0 0 * * *'  # Executa todo dia à meia-noite UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Libera permissão de push com GITHUB_TOKEN
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
       - name: Gerar estatísticas
-        env:
-          TOKEN: ${{ secrets.PAT }} 
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=CaueKempe&layout=compact&theme=radical&private=true&token=$TOKEN" > stats.svg
-          
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=CaueKempe&layout=compact&theme=radical&private=true" > stats.svg
+
       - name: Atualizar README
         run: |
-          git config --global user.name "CaueKempe"
-          git config --global user.email "cauekempe@gmail.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add stats.svg
-          git commit -m "Update stats"
+          git commit -m "Update stats" || echo "Nada para commitar"
           git push
