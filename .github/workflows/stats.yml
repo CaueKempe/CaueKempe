@@ -1,0 +1,23 @@
+name: Update Stats
+on:
+  schedule:
+    - cron: '0 0 * * *'  
+  workflow_dispatch:     
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gerar estatísticas
+        env:
+          TOKEN: ${{ secrets.PAT }} 
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=CaueKempe&layout=compact&theme=radical&private=true&token=$TOKEN" > stats.svg
+          
+      - name: Atualizar README
+        run: |
+          git config --global user.name "CaueKempe"
+          git config --global user.email "cauekempe@gmail.com"
+          git add stats.svg
+          git commit -m "Update stats"
+          git push
