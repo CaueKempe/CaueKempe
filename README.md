@@ -4,8 +4,8 @@
   <a href="https://github.com/CaueKempe">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CaueKempe&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
   </a>
-  <a href="https://github.com/CaueKempe">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaueKempe&layout=compact&theme=radical&langs_count=6&hide=jupyter%20notebook,tex,makefile,shell" alt="Top Langs"/>
+  <a href="https://github.com/rafael-p-s">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafael-p-s&layout=compact&theme=radical&langs_count=6&hide=jupyter%20notebook,tex,makefile,shell" alt="Top Langs"/>
   </a>
 </div>
 
