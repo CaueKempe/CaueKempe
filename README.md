@@ -5,7 +5,7 @@
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CaueKempe&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/CaueKempe">
-    <img height="180em" src="https://raw.githubusercontent.com/CaueKempe/CaueKempe/main/stats.svg" alt="Top Langs"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaueKempe&layout=compact&theme=radical&langs_count=6&hide=jupyter%20notebook,tex,makefile,shell" alt="Top Langs"/>
   </a>
 </div>
 
@@ -13,7 +13,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=CaueKempe&theme=onedark&row=2&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=CaueKempe&theme=onedark&row=1&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
   </a>
 </div>
 
@@ -63,17 +63,8 @@
   <img width="8" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="32" alt="php logo" />
   <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="32" alt="sqlite logo" />
-  <img width="8" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="32" alt="mysql logo" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="32" alt="postgresql logo" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="32" alt="mongodb logo" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg" height="32" alt="mongoose logo" />
-  <img width="8" />
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" height="32" alt="tailwindcss logo" />
+
 </div>
 
 
