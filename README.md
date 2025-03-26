@@ -68,10 +68,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidjs/solidjs-original.svg" height="32" alt="solidjs logo" />
   <img width="8" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="32" alt="vuejs logo" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/java-original.svg" height="32" alt="java logo" />
-  <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/cpp-original.svg" height="32" alt="cpp logo" />
+
 
 </div>
 
