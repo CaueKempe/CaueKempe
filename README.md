@@ -71,7 +71,7 @@
   <img width="8" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/java-original.svg" height="32" alt="java logo" />
   <img width="8" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/cplusplus-original.svg" height="32" alt="cplusplus logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/cpp-original.svg" height="32" alt="cpp logo" />
 
 </div>
 
